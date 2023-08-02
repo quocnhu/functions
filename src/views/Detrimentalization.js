@@ -36,6 +36,12 @@ const Detr = () => {
     } else {
       alert('User not found.');
     }
+
+    const handleKeyDown = (e) => {
+      if (e.key === 'Enter') {
+        handleLogin();
+      }
+    };
   };
 
   const handleLogout = () => {
@@ -69,6 +75,11 @@ const Detr = () => {
             placeholder="Enter your username"
             value={usernameInput}
             onChange={(e) => setUsernameInput(e.target.value)}
+            onKeyDown={(e)=>{
+              if (e.key === 'Enter') {
+                handleLogin();
+              }
+            }}
           />
           <button onClick={handleLogin}>Login</button>
           <p>Available users: Admin User, Ordinary User</p>
