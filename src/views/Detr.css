@@ -1,0 +1,38 @@
+/* App.css */
+
+.app-container {
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .login-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .login-box button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .login-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-box p {
+    margin-top: 10px;
+  }
+  
